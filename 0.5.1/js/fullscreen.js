@@ -65,7 +65,7 @@ var GUI =
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({"addons":"addons","iframe-extension-worker":"iframe-extension-worker","library-backdrops":"library-backdrops","library-costumes":"library-costumes","library-sounds":"library-sounds","library-sprites":"library-sprites","scratch-blocks":"scratch-blocks","addon-default-entry":"addon-default-entry","addon-entry-2d-color-picker":"addon-entry-2d-color-picker","addon-entry-better-img-uploads":"addon-entry-better-img-uploads","addon-entry-block-count":"addon-entry-block-count","addon-entry-block-palette-icons":"addon-entry-block-palette-icons","addon-entry-blocks2image":"addon-entry-blocks2image","addon-entry-cat-blocks":"addon-entry-cat-blocks","addon-entry-clones":"addon-entry-clones","addon-entry-columns":"addon-entry-columns","addon-entry-custom-block-shape":"addon-entry-custom-block-shape","addon-entry-custom-block-text":"addon-entry-custom-block-text","addon-entry-custom-zoom":"addon-entry-custom-zoom","addon-entry-data-category-tweaks-v2":"addon-entry-data-category-tweaks-v2","addon-entry-debugger":"addon-entry-debugger","addon-entry-disable-paste-offset":"addon-entry-disable-paste-offset","addon-entry-disable-stage-drag-select":"addon-entry-disable-stage-drag-select","addon-entry-editor-colored-context-menus":"addon-entry-editor-colored-context-menus","addon-entry-editor-extra-keys":"addon-entry-editor-extra-keys","addon-entry-editor-sounds":"addon-entry-editor-sounds","addon-entry-editor-stage-left":"addon-entry-editor-stage-left","addon-entry-editor-stepping":"addon-entry-editor-stepping","addon-entry-editor-theme3":"addon-entry-editor-theme3","addon-entry-fullscreen":"addon-entry-fullscreen","addon-entry-gamepad":"addon-entry-gamepad","addon-entry-hide-delete-button":"addon-entry-hide-delete-button","addon-entry-hide-flyout":"addon-entry-hide-flyout","addon-entry-hide-new-variables":"addon-entry-hide-new-variables","addon-entry-initialise-sprite-position":"addon-entry-initialise-sprite-position","addon-entry-load-extensions":"addon-entry-load-extensions","addon-entry-mediarecorder":"addon-entry-mediarecorder","addon-entry-mouse-pos":"addon-entry-mouse-pos","addon-entry-no-script-bumping":"addon-entry-no-script-bumping","addon-entry-paint-by-default":"addon-entry-paint-by-default","addon-entry-remove-curved-stage-border":"addon-entry-remove-curved-stage-border","addon-entry-remove-sprite-confirm":"addon-entry-remove-sprite-confirm","addon-entry-script-snap":"addon-entry-script-snap","addon-entry-search-sprites":"addon-entry-search-sprites","addon-entry-swap-local-global":"addon-entry-swap-local-global","addon-entry-transparent-orphans":"addon-entry-transparent-orphans","addon-entry-tw-disable-compiler":"addon-entry-tw-disable-compiler","addon-entry-tw-remove-backpack":"addon-entry-tw-remove-backpack","addon-entry-tw-remove-feedback":"addon-entry-tw-remove-feedback","addon-entry-tw-straighten-comments":"addon-entry-tw-straighten-comments","addon-entry-variable-manager":"addon-entry-variable-manager","addon-l10n-de":"addon-l10n-de","addon-l10n-es":"addon-l10n-es","addon-l10n-fr":"addon-l10n-fr","addon-l10n-it":"addon-l10n-it","addon-l10n-ja":"addon-l10n-ja","addon-l10n-ko":"addon-l10n-ko","addon-l10n-nl":"addon-l10n-nl","addon-l10n-pl":"addon-l10n-pl","addon-l10n-pt":"addon-l10n-pt","addon-l10n-ro":"addon-l10n-ro","addon-l10n-ru":"addon-l10n-ru","addon-l10n-sl":"addon-l10n-sl","addon-l10n-tr":"addon-l10n-tr"}[chunkId]||chunkId) + ".js"
+/******/ 		return __webpack_require__.p + "js/" + ({"addons":"addons","iframe-extension-worker":"iframe-extension-worker","library-backdrops":"library-backdrops","library-costumes":"library-costumes","library-sounds":"library-sounds","library-sprites":"library-sprites","sb":"sb","addon-default-entry":"addon-default-entry","addon-entry-2d-color-picker":"addon-entry-2d-color-picker","addon-entry-better-img-uploads":"addon-entry-better-img-uploads","addon-entry-block-count":"addon-entry-block-count","addon-entry-block-palette-icons":"addon-entry-block-palette-icons","addon-entry-blocks2image":"addon-entry-blocks2image","addon-entry-cat-blocks":"addon-entry-cat-blocks","addon-entry-clones":"addon-entry-clones","addon-entry-columns":"addon-entry-columns","addon-entry-custom-block-shape":"addon-entry-custom-block-shape","addon-entry-custom-block-text":"addon-entry-custom-block-text","addon-entry-custom-zoom":"addon-entry-custom-zoom","addon-entry-data-category-tweaks-v2":"addon-entry-data-category-tweaks-v2","addon-entry-debugger":"addon-entry-debugger","addon-entry-default-costume-editor-color":"addon-entry-default-costume-editor-color","addon-entry-disable-paste-offset":"addon-entry-disable-paste-offset","addon-entry-disable-stage-drag-select":"addon-entry-disable-stage-drag-select","addon-entry-editor-buttons-reverse-order":"addon-entry-editor-buttons-reverse-order","addon-entry-editor-colored-context-menus":"addon-entry-editor-colored-context-menus","addon-entry-editor-extra-keys":"addon-entry-editor-extra-keys","addon-entry-editor-sounds":"addon-entry-editor-sounds","addon-entry-editor-stage-left":"addon-entry-editor-stage-left","addon-entry-editor-stepping":"addon-entry-editor-stepping","addon-entry-editor-theme3":"addon-entry-editor-theme3","addon-entry-fullscreen":"addon-entry-fullscreen","addon-entry-gamepad":"addon-entry-gamepad","addon-entry-hide-delete-button":"addon-entry-hide-delete-button","addon-entry-hide-flyout":"addon-entry-hide-flyout","addon-entry-hide-new-variables":"addon-entry-hide-new-variables","addon-entry-hide-stage":"addon-entry-hide-stage","addon-entry-initialise-sprite-position":"addon-entry-initialise-sprite-position","addon-entry-load-extensions":"addon-entry-load-extensions","addon-entry-mediarecorder":"addon-entry-mediarecorder","addon-entry-mouse-pos":"addon-entry-mouse-pos","addon-entry-no-script-bumping":"addon-entry-no-script-bumping","addon-entry-paint-by-default":"addon-entry-paint-by-default","addon-entry-remove-curved-stage-border":"addon-entry-remove-curved-stage-border","addon-entry-remove-sprite-confirm":"addon-entry-remove-sprite-confirm","addon-entry-script-snap":"addon-entry-script-snap","addon-entry-search-sprites":"addon-entry-search-sprites","addon-entry-swap-local-global":"addon-entry-swap-local-global","addon-entry-transparent-orphans":"addon-entry-transparent-orphans","addon-entry-tw-disable-compiler":"addon-entry-tw-disable-compiler","addon-entry-tw-remove-backpack":"addon-entry-tw-remove-backpack","addon-entry-tw-remove-feedback":"addon-entry-tw-remove-feedback","addon-entry-tw-straighten-comments":"addon-entry-tw-straighten-comments","addon-entry-variable-manager":"addon-entry-variable-manager","addon-entry-zebra-striping":"addon-entry-zebra-striping","addon-l10n-de":"addon-l10n-de","addon-l10n-es":"addon-l10n-es","addon-l10n-fr":"addon-l10n-fr","addon-l10n-hu":"addon-l10n-hu","addon-l10n-it":"addon-l10n-it","addon-l10n-ja":"addon-l10n-ja","addon-l10n-ko":"addon-l10n-ko","addon-l10n-nl":"addon-l10n-nl","addon-l10n-pl":"addon-l10n-pl","addon-l10n-pt":"addon-l10n-pt","addon-l10n-ro":"addon-l10n-ro","addon-l10n-ru":"addon-l10n-ru","addon-l10n-sl":"addon-l10n-sl","addon-l10n-tr":"addon-l10n-tr"}[chunkId]||chunkId) + ".js"
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -237,13 +237,13 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".cloud-variable-badge_badge_1n_s5 {\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    display: flex;\n    align-items: center;\n    border-radius: 0.5rem;\n}\n[theme=\"dark\"] .cloud-variable-badge_badge_1n_s5 {\n    border-color: #203652;\n    background-color: #16202c;\n}\n.cloud-variable-badge_icon_3ph5l {\n    margin-right: 0.25rem;\n}\n[theme=\"dark\"] .cloud-variable-badge_icon_3ph5l {\n    filter: invert(100%);\n}\n.cloud-variable-badge_text_2zFOB {\n\n}\n", ""]);
+exports.push([module.i, ".cloud-variable-badge_badge_2kZVK {\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    display: flex;\n    align-items: center;\n    border-radius: 0.5rem;\n}\n[theme=\"dark\"] .cloud-variable-badge_badge_2kZVK {\n    border-color: #203652;\n    background-color: #16202c;\n}\n.cloud-variable-badge_icon_3PN9C {\n    margin-right: 0.25rem;\n}\n[theme=\"dark\"] .cloud-variable-badge_icon_3PN9C {\n    filter: invert(100%);\n}\n.cloud-variable-badge_text_1V3lA {\n\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"badge": "cloud-variable-badge_badge_1n_s5",
-	"icon": "cloud-variable-badge_icon_3ph5l",
-	"text": "cloud-variable-badge_text_2zFOB"
+	"badge": "cloud-variable-badge_badge_2kZVK",
+	"icon": "cloud-variable-badge_icon_3PN9C",
+	"text": "cloud-variable-badge_text_1V3lA"
 };
 
 /***/ }),
@@ -260,15 +260,15 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".description_description_TJxeu {\n    max-height: 250px;\n    overflow: auto;\n    white-space: pre-line;\n    overflow-wrap: break-word;\n    line-height: 1.5em;\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    border-radius: 0.5rem;\n}\n\n.description_description_TJxeu a {\n    font-weight: bold;\n    text-decoration: none;\n}\n\n[theme=\"dark\"] .description_description_TJxeu {\n    border-color: #203652;\n    background-color: #16202c;\n}\n\n.description_header_3Bv2V {\n    font-weight: bold;\n    font-size: 1em;\n    margin: 0;\n    padding: 0;\n}\n\n.description_divider_NGZle {\n    margin-top: 8px;\n}\n\n.description_project-link_2xt5_ {\n    margin-bottom: 2px;\n}\n", ""]);
+exports.push([module.i, ".description_description_1iyDJ {\n    max-height: 250px;\n    overflow: auto;\n    white-space: pre-line;\n    overflow-wrap: break-word;\n    line-height: 1.5em;\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    border-radius: 0.5rem;\n}\n\n.description_description_1iyDJ a {\n    font-weight: bold;\n    text-decoration: none;\n}\n\n[theme=\"dark\"] .description_description_1iyDJ {\n    border-color: #203652;\n    background-color: #16202c;\n}\n\n.description_header_27V8b {\n    font-weight: bold;\n    font-size: 1em;\n    margin: 0;\n    padding: 0;\n}\n\n.description_divider_3z5W7 {\n    margin-top: 8px;\n}\n\n.description_project-link_2-Z1r {\n    margin-bottom: 2px;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"description": "description_description_TJxeu",
-	"header": "description_header_3Bv2V",
-	"divider": "description_divider_NGZle",
-	"project-link": "description_project-link_2xt5_",
-	"projectLink": "description_project-link_2xt5_"
+	"description": "description_description_1iyDJ",
+	"header": "description_header_27V8b",
+	"divider": "description_divider_3z5W7",
+	"project-link": "description_project-link_2-Z1r",
+	"projectLink": "description_project-link_2-Z1r"
 };
 
 /***/ }),
@@ -285,19 +285,19 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".featured-projects_container_bte5t {\n    margin-bottom: 8px;\n}\n\n.featured-projects_opener-container_2VEwo {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    opacity: 0.8;\n    color: #222;\n}\n\n.featured-projects_opener-container_2VEwo:hover {\n    opacity: 1;\n}\n\n.featured-projects_opener-content_2nRNs {\n    background-color: white;\n    padding: 4px;\n    border: 1px solid black;\n    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);\n}\n\n.featured-projects_projects_3USxm {\n    position: relative;\n    height: 155px;\n}\n\n.featured-projects_projects_3USxm.featured-projects_transition_2s3rd {\n    transition: .2s height;\n}\n\n.featured-projects_projects_3USxm.featured-projects_opened_1ALXH {\n    height: 310px;\n}\n\n.featured-projects_footer_UQGNp {\n    \n}\n", ""]);
+exports.push([module.i, ".featured-projects_container_1--ew {\n    margin-bottom: 8px;\n}\n\n.featured-projects_opener-container_1c9_H {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    opacity: 0.8;\n    color: #222;\n}\n\n.featured-projects_opener-container_1c9_H:hover {\n    opacity: 1;\n}\n\n.featured-projects_opener-content_1kqev {\n    background-color: white;\n    padding: 4px;\n    border: 1px solid black;\n    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);\n}\n\n.featured-projects_projects_1piAv {\n    position: relative;\n    height: 155px;\n}\n\n.featured-projects_projects_1piAv.featured-projects_transition_3TsdC {\n    transition: .2s height;\n}\n\n.featured-projects_projects_1piAv.featured-projects_opened_eLMQu {\n    height: 310px;\n}\n\n.featured-projects_footer_2fw_5 {\n    \n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "featured-projects_container_bte5t",
-	"opener-container": "featured-projects_opener-container_2VEwo",
-	"openerContainer": "featured-projects_opener-container_2VEwo",
-	"opener-content": "featured-projects_opener-content_2nRNs",
-	"openerContent": "featured-projects_opener-content_2nRNs",
-	"projects": "featured-projects_projects_3USxm",
-	"transition": "featured-projects_transition_2s3rd",
-	"opened": "featured-projects_opened_1ALXH",
-	"footer": "featured-projects_footer_UQGNp"
+	"container": "featured-projects_container_1--ew",
+	"opener-container": "featured-projects_opener-container_1c9_H",
+	"openerContainer": "featured-projects_opener-container_1c9_H",
+	"opener-content": "featured-projects_opener-content_1kqev",
+	"openerContent": "featured-projects_opener-content_1kqev",
+	"projects": "featured-projects_projects_1piAv",
+	"transition": "featured-projects_transition_3TsdC",
+	"opened": "featured-projects_opened_eLMQu",
+	"footer": "featured-projects_footer_2fw_5"
 };
 
 /***/ }),
@@ -314,12 +314,12 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* 35% transparent version of motion-primary */ /* 15% transparent version of motion-primary */ /* opt-in theme overrides */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* #0FBD8C */ /* #FF8C1A */ /* #FFB366 */ /* #FF8C1A */ /* 35% transparent version of extensions-primary */ /* opaque version of extensions-transparent, on white bg */ /* lighter than motion-primary */ /*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/ /* Toolbox z-index: 40; set in scratch-blocks */ /* tooltips should go over add buttons if they overlap */ /* monitors go over add buttons */ /* \"ask\" block text input goes above monitors */ /* menu-bar should go over monitors, alerts and tutorials */ /* tw: show below menu bar normally */ /* Block drag z-index: 1000; default 50 is overriden in blocks.css */ /* so it is draggable into other panes */ /* in most interfaces, the context menu is always on top */ .project-input_input_1gT4y {\n    border: none;\n    width: 100%;\n    font-size: 23px;\n    line-height: 32px;\n    opacity: 0.5;\n    background-color: transparent;\n    color: inherit;\n} .project-input_input_1gT4y:focus {\n    opacity: 1;\n} .project-input_input_1gT4y:disabled {\n    opacity: 0.8;\n} .project-input_tooltip_3y9t4 {\n    opacity: 1 !important;\n    background-color: hsla(163, 85%, 40%, 1) !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25) !important;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    z-index: 491 !important;\n} .project-input_tooltip_3y9t4:after {\n    border-top-color: hsla(163, 85%, 40%, 1) !important;\n}\n", ""]);
+exports.push([module.i, "/* #E5F0FF */ /* #E9F1FC */ /* #D9E3F2 */ /* 90% transparent version of motion-primary */ /* #FFFFFF */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 25% transparent version of ui-white */ /* 15% transparent version of black */ /* #575E75 */ /* 35% transparent version of motion-primary */ /* 15% transparent version of motion-primary */ /* opt-in theme overrides */ /* #FF661A */ /* #E64D00 */ /* #CF63CF */ /* #BD42BD */ /* #FFAB19 */ /* #FF8C1A */ /* #0FBD8C */ /* #0FBD8C */ /* #FF8C1A */ /* #FFB366 */ /* #FF8C1A */ /* 35% transparent version of extensions-primary */ /* opaque version of extensions-transparent, on white bg */ /* lighter than motion-primary */ /*\n    Contains constants for the z-index values of elements that are part of the global stack context.\n    In other words, z-index values that are \"inside\" a component are not added here.\n    This prevents conflicts between identical z-index values in different components.\n*/ /* Toolbox z-index: 40; set in scratch-blocks */ /* tooltips should go over add buttons if they overlap */ /* monitors go over add buttons */ /* \"ask\" block text input goes above monitors */ /* menu-bar should go over monitors, alerts and tutorials */ /* tw: show below menu bar normally */ /* Block drag z-index: 1000; default 50 is overriden in blocks.css */ /* so it is draggable into other panes */ /* in most interfaces, the context menu is always on top */ .project-input_input_1E6Af {\n    border: none;\n    width: 100%;\n    font-size: 23px;\n    line-height: 32px;\n    opacity: 0.5;\n    background-color: transparent;\n    color: inherit;\n} .project-input_input_1E6Af:focus {\n    opacity: 1;\n} .project-input_input_1E6Af:disabled {\n    opacity: 0.8;\n} .project-input_tooltip_3_EoA {\n    opacity: 1 !important;\n    background-color: hsla(10, 85%, 65%, 1) !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25) !important;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif !important;\n    border: 1px solid hsla(0, 0%, 0%, .1) !important;\n    z-index: 491 !important;\n} .project-input_tooltip_3_EoA:after {\n    border-top-color: hsla(10, 85%, 65%, 1) !important;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"input": "project-input_input_1gT4y",
-	"tooltip": "project-input_tooltip_3y9t4"
+	"input": "project-input_input_1E6Af",
+	"tooltip": "project-input_tooltip_3_EoA"
 };
 
 /***/ }),
@@ -336,31 +336,31 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "/*\nImported from:\nhttps://github.com/forkphorus/forkphorus/tree/master/studioview\nWith changes to make it work properly in the scratch-gui environment.\n*/\n\n/* we wrap it in a <div> */\n\n.studioview_wrapper_GWWqn {\n  height: 100%;\n}\n\n/* fix some styles that can be messed up by scratch-gui */\n\n.studioview_studioview-root_z_auP * {\n  box-sizing: content-box !important;\n}\n\n.studioview_studioview-root_z_auP {\n  height: 100%;\n}\n\n.studioview_studioview-list_1X1Hw {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  overflow-anchor: none;\n}\n\n.studioview_studioview-project_2kPXX, .studioview_studioview-placeholder__NrP7 {\n  display: inline-block;\n  width: 144px;\n  padding: 3px;\n  margin-bottom: 1px;\n  margin-right: 1px;\n}\n\n.studioview_studioview-root_z_auP .studioview_studioview-project_2kPXX {\n  color: inherit;\n  position: relative;\n  text-decoration: none;\n}\n\n.studioview_studioview-loaded_mx24q:hover::before, .studioview_studioview-loaded_mx24q:active::before {\n  content: '';\n  pointer-events: none;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-root_z_auP .studioview_studioview-loaded_mx24q:active::before {\n  opacity: 0.2;\n}\n\n.studioview_studioview-root_z_auP .studioview_studioview-title_1eZiq,\n.studioview_studioview-root_z_auP .studioview_studioview-author_Bs0a5 {\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  color: inherit;\n  text-decoration: none;\n}\n\n.studioview_studioview-title_1eZiq {\n  font-size: 0.8em;\n  font-weight: bold;\n}\n\n.studioview_studioview-author_Bs0a5 {\n  font-size: 0.75em;\n}\n\n.studioview_studioview-error_ZX8-M {\n  width: 100%;\n}\n\n.studioview_studioview-thumbnail_2nU6_, .studioview_studioview-placeholder-thumbnail_4Fi8w {\n  position: relative;\n  width: 144px;\n  height: 108px;\n}\n\n.studioview_studioview-thumbnail_2nU6_::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-thumbnail_2nU6_ img {\n  width: 100%;\n  height: 100%;\n}\n\n.studioview_studioview-placeholder__NrP7 .studioview_studioview-thumbnail_2nU6_,\n.studioview_studioview-placeholder__NrP7 .studioview_studioview-title_1eZiq,\n.studioview_studioview-placeholder__NrP7 .studioview_studioview-author_Bs0a5 {\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-title_1eZiq {\n  height: 20px;\n  margin-top: 2px;\n}\n\n.studioview_studioview-author_Bs0a5 {\n  height: 18px;\n}\n\n.studioview_studioview-placeholder__NrP7 .studioview_studioview-title_1eZiq {\n  border-radius: 2px 2px 2px 0;\n  width: 100%;\n}\n\n.studioview_studioview-placeholder__NrP7 .studioview_studioview-author_Bs0a5 {\n  border-radius: 0 0 2px 2px;\n  width: 50%;\n}\n", ""]);
+exports.push([module.i, "/*\nImported from:\nhttps://github.com/forkphorus/forkphorus/tree/master/studioview\nWith changes to make it work properly in the scratch-gui environment.\n*/\n\n/* we wrap it in a <div> */\n\n.studioview_wrapper_1SFBd {\n  height: 100%;\n}\n\n/* fix some styles that can be messed up by scratch-gui */\n\n.studioview_studioview-root_1OP-i * {\n  box-sizing: content-box !important;\n}\n\n.studioview_studioview-root_1OP-i {\n  height: 100%;\n}\n\n.studioview_studioview-list_2hIxk {\n  width: 100%;\n  height: 100%;\n  overflow-y: scroll;\n  overflow-anchor: none;\n}\n\n.studioview_studioview-project_IDotv, .studioview_studioview-placeholder_KKHo9 {\n  display: inline-block;\n  width: 144px;\n  padding: 3px;\n  margin-bottom: 1px;\n  margin-right: 1px;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-project_IDotv {\n  color: inherit;\n  position: relative;\n  text-decoration: none;\n}\n\n.studioview_studioview-loaded_3UCil:hover::before, .studioview_studioview-loaded_3UCil:active::before {\n  content: '';\n  pointer-events: none;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none;\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-loaded_3UCil:active::before {\n  opacity: 0.2;\n}\n\n.studioview_studioview-root_1OP-i .studioview_studioview-title_2ROWB,\n.studioview_studioview-root_1OP-i .studioview_studioview-author_2P0Hj {\n  text-overflow: ellipsis;\n  white-space: nowrap;\n  overflow: hidden;\n  color: inherit;\n  text-decoration: none;\n}\n\n.studioview_studioview-title_2ROWB {\n  font-size: 0.8em;\n  font-weight: bold;\n}\n\n.studioview_studioview-author_2P0Hj {\n  font-size: 0.75em;\n}\n\n.studioview_studioview-error_3XWai {\n  width: 100%;\n}\n\n.studioview_studioview-thumbnail_1HYJO, .studioview_studioview-placeholder-thumbnail_TUdop {\n  position: relative;\n  width: 144px;\n  height: 108px;\n}\n\n.studioview_studioview-thumbnail_1HYJO::before {\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-thumbnail_1HYJO img {\n  width: 100%;\n  height: 100%;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-thumbnail_1HYJO,\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-title_2ROWB,\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-author_2P0Hj {\n  background-color: currentColor;\n  opacity: 0.1;\n}\n\n.studioview_studioview-title_2ROWB {\n  height: 20px;\n  margin-top: 2px;\n}\n\n.studioview_studioview-author_2P0Hj {\n  height: 18px;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-title_2ROWB {\n  border-radius: 2px 2px 2px 0;\n  width: 100%;\n}\n\n.studioview_studioview-placeholder_KKHo9 .studioview_studioview-author_2P0Hj {\n  border-radius: 0 0 2px 2px;\n  width: 50%;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"wrapper": "studioview_wrapper_GWWqn",
-	"studioview-root": "studioview_studioview-root_z_auP",
-	"studioviewRoot": "studioview_studioview-root_z_auP",
-	"studioview-list": "studioview_studioview-list_1X1Hw",
-	"studioviewList": "studioview_studioview-list_1X1Hw",
-	"studioview-project": "studioview_studioview-project_2kPXX",
-	"studioviewProject": "studioview_studioview-project_2kPXX",
-	"studioview-placeholder": "studioview_studioview-placeholder__NrP7",
-	"studioviewPlaceholder": "studioview_studioview-placeholder__NrP7",
-	"studioview-loaded": "studioview_studioview-loaded_mx24q",
-	"studioviewLoaded": "studioview_studioview-loaded_mx24q",
-	"studioview-title": "studioview_studioview-title_1eZiq",
-	"studioviewTitle": "studioview_studioview-title_1eZiq",
-	"studioview-author": "studioview_studioview-author_Bs0a5",
-	"studioviewAuthor": "studioview_studioview-author_Bs0a5",
-	"studioview-error": "studioview_studioview-error_ZX8-M",
-	"studioviewError": "studioview_studioview-error_ZX8-M",
-	"studioview-thumbnail": "studioview_studioview-thumbnail_2nU6_",
-	"studioviewThumbnail": "studioview_studioview-thumbnail_2nU6_",
-	"studioview-placeholder-thumbnail": "studioview_studioview-placeholder-thumbnail_4Fi8w",
-	"studioviewPlaceholderThumbnail": "studioview_studioview-placeholder-thumbnail_4Fi8w"
+	"wrapper": "studioview_wrapper_1SFBd",
+	"studioview-root": "studioview_studioview-root_1OP-i",
+	"studioviewRoot": "studioview_studioview-root_1OP-i",
+	"studioview-list": "studioview_studioview-list_2hIxk",
+	"studioviewList": "studioview_studioview-list_2hIxk",
+	"studioview-project": "studioview_studioview-project_IDotv",
+	"studioviewProject": "studioview_studioview-project_IDotv",
+	"studioview-placeholder": "studioview_studioview-placeholder_KKHo9",
+	"studioviewPlaceholder": "studioview_studioview-placeholder_KKHo9",
+	"studioview-loaded": "studioview_studioview-loaded_3UCil",
+	"studioviewLoaded": "studioview_studioview-loaded_3UCil",
+	"studioview-title": "studioview_studioview-title_2ROWB",
+	"studioviewTitle": "studioview_studioview-title_2ROWB",
+	"studioview-author": "studioview_studioview-author_2P0Hj",
+	"studioviewAuthor": "studioview_studioview-author_2P0Hj",
+	"studioview-error": "studioview_studioview-error_3XWai",
+	"studioviewError": "studioview_studioview-error_3XWai",
+	"studioview-thumbnail": "studioview_studioview-thumbnail_1HYJO",
+	"studioviewThumbnail": "studioview_studioview-thumbnail_1HYJO",
+	"studioview-placeholder-thumbnail": "studioview_studioview-placeholder-thumbnail_TUdop",
+	"studioviewPlaceholderThumbnail": "studioview_studioview-placeholder-thumbnail_TUdop"
 };
 
 /***/ }),
@@ -377,26 +377,28 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\nh1,\nh2,\nh3,\nh4,\nh5,\np {\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\nh1,\nh2,\nh3,\nh4,\nh5 {\n    font-weight: bold;\n    line-height: 1.7em;\n}\nh1 {\n    font-weight: 2.5rem;\n}\nh2 {\n    font-weight: 2rem;\n}\nh3 {\n    font-size: 1.4rem;\n}\nh4 {\n    font-size: 1rem;\n}\na {\n    color: #25d;\n    cursor: pointer;\n    text-decoration: underline;\n}\n.interface_container_1cGgE {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n}\n.interface_editor_3WnQ8 {\n    min-width: 1024px;\n    min-height: 640px;\n    height: 100%;\n}\n.interface_editor_3WnQ8 .interface_center_2vEJw {\n    height: 100%;\n}\n.interface_player-only_1YGqr .interface_center_2vEJw {\n    margin: auto;\n}\n.interface_menu_2TZCG {\n    margin-bottom: 8px;\n}\n.interface_section_3f_bi {\n    margin: 8px 0 8px 0;\n}\n.interface_footer_vF3nx {\n    padding: 10px 0;\n    margin-top: 10px;\n    border-top: 2px solid #ddd;\n}\n.interface_footer_vF3nx a {\n    font-weight: bold;\n    text-decoration: none;\n}\n[theme=\"dark\"] .interface_footer_vF3nx {\n    border-color: #1a1a1a;\n}\n.interface_footer-content_2-VDh {\n    max-width: 600px;\n    margin: auto;\n}\n.interface_footer-text_2qZPP {\n    text-align: center;\n    margin: 5px 0 10px 0;\n}\n.interface_footer-columns_22Cpb {\n    display: flex;\n    justify-content: center;\n    justify-items: center;\n    flex-wrap: wrap;\n}\n.interface_footer-section_vgGzW {\n    display: flex;\n    flex-direction: column;\n    width: 200px;\n    margin-bottom: 10px;\n}\n.interface_footer-section_vgGzW > * {\n    margin-bottom: 10px;\n}\n[theme=\"dark\"] .interface_container_1cGgE {\n    background-color: #111;\n}\n[theme=\"dark\"] .interface_player-only_1YGqr {\n    color: #ddd;\n}\n[theme=\"dark\"] a {\n    color: #4af;\n}\n", ""]);
+exports.push([module.i, "/* Base styles used by Scratch https://github.com/LLK/scratch-www/blob/develop/src/main.scss */\nh1,\nh2,\nh3,\nh4,\nh5,\np {\n    margin: 0;\n    padding: 0;\n    border: 0;\n}\nh1,\nh2,\nh3,\nh4,\nh5 {\n    font-weight: bold;\n    line-height: 1.7em;\n}\nh1 {\n    font-weight: 2.5rem;\n}\nh2 {\n    font-weight: 2rem;\n}\nh3 {\n    font-size: 1.4rem;\n}\nh4 {\n    font-size: 1rem;\n}\na {\n    color: #25d;\n    cursor: pointer;\n    text-decoration: underline;\n}\n.interface_container_2nBns {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n}\n.interface_editor_3jGyG {\n    min-width: 1024px;\n    min-height: 640px;\n    height: 100%;\n}\n.interface_editor_3jGyG .interface_center_2d9_b {\n    height: 100%;\n}\n.interface_player-only_38SyA .interface_center_2d9_b {\n    margin: auto;\n}\n.interface_menu_3K-Q2 {\n    margin-bottom: 8px;\n}\n.interface_section_3pFkT {\n    margin: 8px 0 8px 0;\n}\n.interface_footer_3JeCN {\n    padding: 10px 0;\n    margin-top: 10px;\n    border-top: 2px solid #ddd;\n}\n.interface_footer_3JeCN a {\n    font-weight: bold;\n    text-decoration: none;\n}\n[theme=\"dark\"] .interface_footer_3JeCN {\n    border-color: #1a1a1a;\n}\n.interface_footer-content_1aIC- {\n    max-width: 600px;\n    margin: auto;\n}\n.interface_footer-text_IgwDU {\n    text-align: center;\n    margin: 5px 0 10px 0;\n}\n.interface_footer-columns_1SUSg {\n    display: flex;\n    justify-content: center;\n    justify-items: center;\n    flex-wrap: wrap;\n}\n.interface_footer-section_11lCO {\n    display: flex;\n    flex-direction: column;\n    width: 200px;\n    margin-bottom: 10px;\n}\n.interface_footer-section_11lCO > * {\n    margin-bottom: 10px;\n}\n[theme=\"dark\"] .interface_container_2nBns {\n    background-color: #111;\n}\n[theme=\"dark\"] .interface_player-only_38SyA {\n    color: #ddd;\n}\n[theme=\"dark\"] a {\n    color: #4af;\n}\n.interface_unshared-update_i7deb {\n    line-height: 1.5em;\n    padding: 0.5rem;\n    margin: 5px 0 8px 0;\n    border: 1px solid #b9d6ff;\n    background-color: #dbebff;\n    border-radius: 0.5rem;\n}\n[theme=\"dark\"] .interface_unshared-update_i7deb {\n    border-color: #203652;\n    background-color: #16202c;\n}\n.interface_unshared-update_i7deb p {\n    margin: 4px 0;\n}\n.interface_unshared-update_i7deb a {\n    font-weight: bold;\n    text-decoration: none;\n}\n", ""]);
 
 // exports
 exports.locals = {
-	"container": "interface_container_1cGgE",
-	"editor": "interface_editor_3WnQ8",
-	"center": "interface_center_2vEJw",
-	"player-only": "interface_player-only_1YGqr",
-	"playerOnly": "interface_player-only_1YGqr",
-	"menu": "interface_menu_2TZCG",
-	"section": "interface_section_3f_bi",
-	"footer": "interface_footer_vF3nx",
-	"footer-content": "interface_footer-content_2-VDh",
-	"footerContent": "interface_footer-content_2-VDh",
-	"footer-text": "interface_footer-text_2qZPP",
-	"footerText": "interface_footer-text_2qZPP",
-	"footer-columns": "interface_footer-columns_22Cpb",
-	"footerColumns": "interface_footer-columns_22Cpb",
-	"footer-section": "interface_footer-section_vgGzW",
-	"footerSection": "interface_footer-section_vgGzW"
+	"container": "interface_container_2nBns",
+	"editor": "interface_editor_3jGyG",
+	"center": "interface_center_2d9_b",
+	"player-only": "interface_player-only_38SyA",
+	"playerOnly": "interface_player-only_38SyA",
+	"menu": "interface_menu_3K-Q2",
+	"section": "interface_section_3pFkT",
+	"footer": "interface_footer_3JeCN",
+	"footer-content": "interface_footer-content_1aIC-",
+	"footerContent": "interface_footer-content_1aIC-",
+	"footer-text": "interface_footer-text_IgwDU",
+	"footerText": "interface_footer-text_IgwDU",
+	"footer-columns": "interface_footer-columns_1SUSg",
+	"footerColumns": "interface_footer-columns_1SUSg",
+	"footer-section": "interface_footer-section_11lCO",
+	"footerSection": "interface_footer-section_11lCO",
+	"unshared-update": "interface_unshared-update_i7deb",
+	"unsharedUpdate": "interface_unshared-update_i7deb"
 };
 
 /***/ }),
@@ -1275,7 +1277,7 @@ module.exports = toString;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* GUI */\n:root {\n    background: #111;\n    color: #eee;\n    /* see colors.csss */\n    --ui-primary: rgb(17, 17, 17);\n    --ui-secondary: rgb(30, 30, 30);\n    --ui-tertiary: rgb(46, 46, 46);\n    --ui-modal-overlay: #333a;\n    --ui-black-transparent: rgba(255, 255, 255, 0.15);\n    --text-primary: #eee;\n    /* scratch-paint */\n    --paint-ui-pane-border: var(--ui-black-transparent);\n    --paint-text-primary: #eee;\n    --paint-form-border: var(--ui-black-transparent);\n}\n\n/* Blockly */\n.blocklySvg {\n    background-color: var(--ui-secondary) !important;\n}\n[id^=\"blocklyGridPattern\"] > line {\n    stroke: #484848;\n}\n.blocklyFlyoutBackground {\n    fill: #111;\n}\n.blocklyFlyoutLabelText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton .blocklyText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton:hover {\n    fill: #111;\n}\n.scratchCategoryMenu {\n    color: #ccc;\n}\n.blocklyToolboxDiv,\n.scratchCategoryMenu {\n    background: #111 !important;\n}\n.blocklyScrollbarHandle {\n    fill: #666;\n}\n.blocklyZoom {\n    filter: invert(100%);\n}\n.scratchCategoryMenuItem.categorySelected {\n    background: var(--ui-secondary);\n}\n.valueReportBox {\n    color: black;\n}\n.blocklyWidgetDiv .goog-menu {\n    background: var(--ui-primary);\n    border-color: var(--ui-black-transparent);\n}\n.blocklyWidgetDiv .goog-menuitem {\n    color: var(--text-primary);\n}\n.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content {\n    color: #666 !important;\n}\n.sa-blockly-menu-item-border {\n    border-top-color: var(--ui-black-transparent) !important;\n}\n.blocklyWidgetDiv .goog-menuitem.goog-menuitem-highlight {\n    background-color: var(--ui-tertiary);\n    border-color: transparent; /* remove border */\n}\n.scratchCommentText {\n    color: black;\n}\n.blocklyInsertionMarker > .blocklyPath {\n    fill: #ccc;\n}\n\n/* Other / Multipurpose */\n.Popover-body {\n    background: var(--ui-secondary);\n    border-color: var(--ui-black-transparent);\n    color: var(--text-primary);\n}\n.Popover-tipShape {\n    fill: var(--ui-secondary);\n    stroke: var(--ui-black-transparent);\n}\n"
+module.exports = "/* GUI */\n:root {\n    background: #111;\n    color: #eee;\n    color-scheme: dark;\n    /* see colors.csss */\n    --ui-primary: rgb(17, 17, 17);\n    --ui-secondary: rgb(30, 30, 30);\n    --ui-tertiary: rgb(46, 46, 46);\n    --ui-modal-overlay: #333a;\n    --ui-black-transparent: rgba(255, 255, 255, 0.15);\n    --text-primary: #eee;\n    /* scratch-paint */\n    --paint-ui-pane-border: var(--ui-black-transparent);\n    --paint-text-primary: #eee;\n    --paint-form-border: var(--ui-black-transparent);\n}\n\n/* Blockly */\n.blocklySvg {\n    background-color: var(--ui-secondary) !important;\n    color-scheme: light;\n}\n[id^=\"blocklyGridPattern\"] > line {\n    stroke: #484848;\n}\n.blocklyFlyoutBackground {\n    fill: #111;\n}\n.blocklyFlyoutLabelText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton .blocklyText {\n    fill: #ccc;\n}\n.blocklyFlyoutButton:hover {\n    fill: #111;\n}\n.scratchCategoryMenu {\n    color: #ccc;\n}\n.blocklyToolboxDiv,\n.scratchCategoryMenu {\n    background: #111 !important;\n}\n.blocklyScrollbarHandle {\n    fill: #666;\n}\n.blocklyZoom {\n    filter: invert(100%);\n}\n.scratchCategoryMenuItem.categorySelected {\n    background: var(--ui-secondary);\n}\n.valueReportBox {\n    color: black;\n}\n.blocklyWidgetDiv {\n    color-scheme: light;\n}\n.blocklyWidgetDiv .goog-menu {\n    background: var(--ui-primary);\n    border-color: var(--ui-black-transparent);\n}\n.blocklyWidgetDiv .goog-menuitem {\n    color: var(--text-primary);\n}\n.blocklyWidgetDiv .goog-menuitem-disabled .goog-menuitem-content {\n    color: #666 !important;\n}\n.sa-blockly-menu-item-border {\n    border-top-color: var(--ui-black-transparent) !important;\n}\n.blocklyWidgetDiv .goog-menuitem.goog-menuitem-highlight {\n    background-color: var(--ui-tertiary);\n    border-color: transparent; /* remove border */\n}\n.scratchCommentText {\n    color: black;\n}\n.blocklyInsertionMarker > .blocklyPath {\n    fill: #ccc;\n}\n\n/* Other / Multipurpose */\n.Popover {\n    /* weird Chrome bug displays white bar above popovers with color-scheme: dark */\n    color-scheme: light;\n}\n.Popover-body {\n    background: var(--ui-secondary);\n    border-color: var(--ui-black-transparent);\n    color: var(--text-primary);\n}\n.Popover-tipShape {\n    fill: var(--ui-secondary);\n    stroke: var(--ui-black-transparent);\n}\n"
 
 /***/ }),
 
@@ -1443,7 +1445,7 @@ const CloudVariableBadge = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__
   className: _cloud_variable_badge_css__WEBPACK_IMPORTED_MODULE_3___default.a.text
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_1__["FormattedMessage"] // eslint-disable-next-line max-len
 , {
-  defaultMessage: "This project uses cloud variables. Scratch Community Edition uses its own cloud variable server independent of Scratch. Beware of impersonation as anyone can change their username to anything. {learnMore}",
+  defaultMessage: "This project uses cloud variables. TurboWarp uses its own cloud variable server independent of Scratch. Beware of impersonation as anyone can change their username to anything. {learnMore}",
   id: "tw.cloudVariableBadge",
   values: {
     learnMore: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -1553,16 +1555,9 @@ const Description = ({
   instructions,
   credits,
   projectId
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+}) => instructions !== 'unshared' && credits !== 'unshared' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _description_css__WEBPACK_IMPORTED_MODULE_3___default.a.description
-}, instructions === 'unshared' && credits === 'unshared' ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-  href: "https://docs.turbowarp.org/unshared-projects",
-  target: "_blank",
-  rel: "noreferrer"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
-  defaultMessage: "Regarding unshared projects",
-  id: "tw.regardingUnshared"
-}))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _description_css__WEBPACK_IMPORTED_MODULE_3___default.a.projectLink
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   href: "https://scratch.mit.edu/projects/".concat(projectId, "/"),
@@ -1578,12 +1573,12 @@ const Description = ({
   id: "tw.home.instructions"
 })), decorate(instructions)) : null, instructions && credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: _description_css__WEBPACK_IMPORTED_MODULE_3___default.a.divider
-}) : null, credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+}) : null, credits && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
   className: _description_css__WEBPACK_IMPORTED_MODULE_3___default.a.header
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
   defaultMessage: "Notes and Credits",
   id: "tw.home.credit"
-})), decorate(credits)) : null));
+})), decorate(credits)));
 
 Description.propTypes = {
   instructions: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
@@ -2431,6 +2426,142 @@ history.pushState = function (...args) {
 
 /***/ }),
 
+/***/ "./src/lib/tw-packager-integration-hoc.jsx":
+/*!*************************************************!*\
+  !*** ./src/lib/tw-packager-integration-hoc.jsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return PackagerIntegrationHOC; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./log */ "./src/lib/log.js");
+/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/project-state */ "./src/reducers/project-state.js");
+const _excluded = ["canOpenPackager"];
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+
+
+
+const PACKAGER = 'https://packager.turbowarp.org';
+
+const readBlobAsArrayBuffer = blob => new Promise((resolve, reject) => {
+  const fr = new FileReader();
+
+  fr.onload = () => resolve(fr.result);
+
+  fr.onerror = () => reject(new Error('Cannot read blob as array buffer'));
+
+  fr.readAsArrayBuffer(blob);
+});
+
+const PackagerIntegrationHOC = function PackagerIntegrationHOC(WrappedComponent) {
+  class PackagerIntegrationComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+    constructor(props) {
+      super(props);
+      this.handleClickPackager = this.handleClickPackager.bind(this);
+      this.handleMessage = this.handleMessage.bind(this);
+    }
+
+    componentDidMount() {
+      window.addEventListener('message', this.handleMessage);
+    }
+
+    componentWillUnmount() {
+      window.removeEventListener('message', this.handleMessage);
+    }
+
+    handleClickPackager() {
+      if (this.props.canOpenPackager) {
+        window.open("".concat(PACKAGER, "/?import_from=").concat(location.origin));
+      }
+    }
+
+    handleMessage(e) {
+      if (e.origin !== PACKAGER) {
+        return;
+      }
+
+      if (!this.props.canOpenPackager) {
+        return;
+      } // The packager needs to know that we will be importing something so it can display a loading screen
+
+
+      e.source.postMessage({
+        p4: {
+          type: 'start-import'
+        }
+      }, PACKAGER);
+      this.props.vm.saveProjectSb3().then(readBlobAsArrayBuffer).then(buffer => {
+        const name = "".concat(this.props.reduxProjectTitle, ".sb3");
+        e.source.postMessage({
+          p4: {
+            type: 'finish-import',
+            data: buffer,
+            name
+          }
+        }, PACKAGER, [buffer]);
+      }).catch(err => {
+        _log__WEBPACK_IMPORTED_MODULE_3__["default"].error(err);
+        e.source.postMessage({
+          p4: {
+            type: 'cancel-import'
+          }
+        }, PACKAGER);
+      });
+    }
+
+    render() {
+      const _this$props = this.props,
+            {
+        /* eslint-disable no-unused-vars */
+        canOpenPackager
+      } = _this$props,
+            props = _objectWithoutProperties(_this$props, _excluded);
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(WrappedComponent, _extends({
+        onClickPackager: this.handleClickPackager
+      }, props));
+    }
+
+  }
+
+  PackagerIntegrationComponent.propTypes = {
+    canOpenPackager: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
+    reduxProjectTitle: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+    vm: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({
+      saveProjectSb3: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func
+    })
+  };
+
+  const mapStateToProps = state => ({
+    canOpenPackager: Object(_reducers_project_state__WEBPACK_IMPORTED_MODULE_4__["getIsShowingProject"])(state.scratchGui.projectState.loadingState),
+    reduxProjectTitle: state.scratchGui.projectTitle,
+    vm: state.scratchGui.vm
+  });
+
+  const mapDispatchToProps = () => ({});
+
+  return Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(PackagerIntegrationComponent);
+};
+
+
+
+/***/ }),
+
 /***/ "./src/lib/tw-project-meta-fetcher-hoc.jsx":
 /*!*************************************************!*\
   !*** ./src/lib/tw-project-meta-fetcher-hoc.jsx ***!
@@ -2449,7 +2580,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _log__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./log */ "./src/lib/log.js");
 /* harmony import */ var _reducers_project_title__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/project-title */ "./src/reducers/project-title.js");
 /* harmony import */ var _reducers_tw__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../reducers/tw */ "./src/reducers/tw.js");
-const _excluded = ["projectId", "onSetAuthor", "onSetDescription", "onSetProjectTitle"];
+const _excluded = ["projectId", "onSetAuthor", "onSetDescription", "onSetProjectTitle", "vm"];
 
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
@@ -2500,6 +2631,7 @@ const TWProjectMetaFetcherHOC = function TWProjectMetaFetcherHOC(WrappedComponen
 
     componentDidUpdate() {
       // project title resetting is handled in titled-hoc.jsx
+      this.props.vm.runtime.renderer.setPrivateSkinAccess(true);
       this.props.onSetAuthor('', '');
       this.props.onSetDescription('', '');
       const projectId = this.props.projectId; // Don't try to load metadata for empty projects.
@@ -2521,12 +2653,8 @@ const TWProjectMetaFetcherHOC = function TWProjectMetaFetcherHOC(WrappedComponen
         }
 
         const authorName = data.author.username;
-        const authorThumbnail = data.author.profile.images['32x32'];
-
-        if (authorName && authorThumbnail) {
-          this.props.onSetAuthor(authorName, authorThumbnail);
-        }
-
+        const authorThumbnail = "https://trampoline.turbowarp.org/avatars/".concat(data.author.id);
+        this.props.onSetAuthor(authorName, authorThumbnail);
         const instructions = data.instructions || '';
         const credits = data.description || '';
 
@@ -2536,6 +2664,7 @@ const TWProjectMetaFetcherHOC = function TWProjectMetaFetcherHOC(WrappedComponen
 
         setIndexable(true);
       }).catch(err => {
+        this.props.vm.runtime.renderer.setPrivateSkinAccess(false);
         setIndexable(false);
 
         if ("".concat(err).includes('unshared')) {
@@ -2553,7 +2682,8 @@ const TWProjectMetaFetcherHOC = function TWProjectMetaFetcherHOC(WrappedComponen
         projectId,
         onSetAuthor,
         onSetDescription,
-        onSetProjectTitle
+        onSetProjectTitle,
+        vm
       } = _this$props,
             props = _objectWithoutProperties(_this$props, _excluded);
 
@@ -2566,11 +2696,19 @@ const TWProjectMetaFetcherHOC = function TWProjectMetaFetcherHOC(WrappedComponen
     projectId: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
     onSetAuthor: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
     onSetDescription: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
-    onSetProjectTitle: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+    onSetProjectTitle: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+    vm: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+      runtime: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+        renderer: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.shape({
+          setPrivateSkinAccess: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
+        })
+      })
+    })
   };
 
   const mapStateToProps = state => ({
-    projectId: state.scratchGui.projectState.projectId
+    projectId: state.scratchGui.projectState.projectId,
+    vm: state.scratchGui.vm
   });
 
   const mapDispatchToProps = dispatch => ({
@@ -2586,6 +2724,140 @@ const TWProjectMetaFetcherHOC = function TWProjectMetaFetcherHOC(WrappedComponen
   });
 
   return Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(ProjectMetaFetcherComponent);
+};
+
+
+
+/***/ }),
+
+/***/ "./src/lib/tw-restore-point-hoc.jsx":
+/*!******************************************!*\
+  !*** ./src/lib/tw-restore-point-hoc.jsx ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return TWRestorePointHOC; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _reducers_alerts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../reducers/alerts */ "./src/reducers/alerts.js");
+/* harmony import */ var _reducers_project_state__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../reducers/project-state */ "./src/reducers/project-state.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lodash.bindall */ "./node_modules/lodash.bindall/index.js");
+/* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! scratch-vm */ "./node_modules/scratch-vm/src/index.js");
+/* harmony import */ var scratch_vm__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(scratch_vm__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _tw_restore_point_api__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./tw-restore-point-api */ "./src/lib/tw-restore-point-api.js");
+const _excluded = ["projectChanged", "onAutosavingStart", "onAutosavingFinish", "vm"];
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+
+
+
+
+
+
+
+
+/**
+ * @fileoverview
+ * HOC responsible for automatically creating restore points.
+ */
+
+const INTERVAL = 1000 * 60 * 5;
+let bailed = false;
+
+const TWRestorePointHOC = function TWRestorePointHOC(WrappedComponent) {
+  class RestorePointComponent extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+    constructor(props) {
+      super(props);
+      lodash_bindall__WEBPACK_IMPORTED_MODULE_5___default()(this, ['createRestorePoint']);
+      this.timeout = null;
+    }
+
+    componentDidUpdate(prevProps) {
+      if (bailed) {
+        return;
+      }
+
+      if (this.props.projectChanged !== prevProps.projectChanged || this.props.isShowingProject !== prevProps.isShowingProject) {
+        if (this.props.projectChanged && this.props.isShowingProject) {
+          // Project was modified; queue restore point.
+          this.timeout = setTimeout(this.createRestorePoint, INTERVAL);
+        } else {
+          // Project was saved; abort restore point.
+          clearTimeout(this.timeout);
+          this.timeout = null;
+        }
+      }
+    }
+
+    componentWillUnmount() {
+      clearTimeout(this.timeout);
+    }
+
+    async createRestorePoint() {
+      try {
+        this.props.onAutosavingStart();
+        await _tw_restore_point_api__WEBPACK_IMPORTED_MODULE_7__["default"].save(this.props.vm);
+      } catch (error) {
+        bailed = true;
+      }
+
+      this.timeout = null; // Intentional delay.
+
+      setTimeout(() => {
+        this.props.onAutosavingFinish();
+
+        if (this.timeout === null && !bailed && this.props.projectChanged && this.props.isShowingProject) {
+          this.timeout = setTimeout(this.createRestorePoint, INTERVAL);
+        }
+      }, 250);
+    }
+
+    render() {
+      const _this$props = this.props,
+            {
+        /* eslint-disable no-unused-vars */
+        projectChanged,
+        onAutosavingStart,
+        onAutosavingFinish,
+        vm
+      } = _this$props,
+            props = _objectWithoutProperties(_this$props, _excluded);
+
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(WrappedComponent, props);
+    }
+
+  }
+
+  RestorePointComponent.propTypes = {
+    isShowingProject: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+    projectChanged: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+    onAutosavingStart: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+    onAutosavingFinish: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func,
+    vm: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.instanceOf(scratch_vm__WEBPACK_IMPORTED_MODULE_6___default.a)
+  };
+
+  const mapStateToProps = state => ({
+    isShowingProject: Object(_reducers_project_state__WEBPACK_IMPORTED_MODULE_4__["getIsShowingProject"])(state.scratchGui.projectState.loadingState),
+    projectChanged: state.scratchGui.projectChanged,
+    vm: state.scratchGui.vm
+  });
+
+  const mapDispatchToProps = dispatch => ({
+    onAutosavingStart: () => dispatch(Object(_reducers_alerts__WEBPACK_IMPORTED_MODULE_3__["showStandardAlert"])('twAutosaving')),
+    onAutosavingFinish: () => dispatch(Object(_reducers_alerts__WEBPACK_IMPORTED_MODULE_3__["closeAlertWithId"])('twAutosaving'))
+  });
+
+  return Object(react_redux__WEBPACK_IMPORTED_MODULE_2__["connect"])(mapStateToProps, mapDispatchToProps)(RestorePointComponent);
 };
 
 
@@ -2837,22 +3109,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../lib/tw-state-manager-hoc.jsx */ "./src/lib/tw-state-manager-hoc.jsx");
 /* harmony import */ var _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../lib/tw-theme-hoc.jsx */ "./src/lib/tw-theme-hoc.jsx");
 /* harmony import */ var _lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../lib/sb-file-uploader-hoc.jsx */ "./src/lib/sb-file-uploader-hoc.jsx");
-/* harmony import */ var _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../addons/settings-store-singleton */ "./src/addons/settings-store-singleton.js");
-/* harmony import */ var _lib_tw_fix_history_api__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../lib/tw-fix-history-api */ "./src/lib/tw-fix-history-api.js");
-/* harmony import */ var _render_gui_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./render-gui.jsx */ "./src/playground/render-gui.jsx");
-/* harmony import */ var _components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../components/menu-bar/menu-bar.jsx */ "./src/components/menu-bar/menu-bar.jsx");
-/* harmony import */ var _components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../components/tw-project-input/project-input.jsx */ "./src/components/tw-project-input/project-input.jsx");
-/* harmony import */ var _components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/tw-featured-projects/featured-projects.jsx */ "./src/components/tw-featured-projects/featured-projects.jsx");
-/* harmony import */ var _components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/tw-description/description.jsx */ "./src/components/tw-description/description.jsx");
-/* harmony import */ var _containers_webgl_modal_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../containers/webgl-modal.jsx */ "./src/containers/webgl-modal.jsx");
-/* harmony import */ var _components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../components/browser-modal/browser-modal.jsx */ "./src/components/browser-modal/browser-modal.jsx");
-/* harmony import */ var _components_tw_cloud_variable_badge_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../components/tw-cloud-variable-badge/cloud-variable-badge.jsx */ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx");
-/* harmony import */ var _lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../lib/tw-environment-support-prober */ "./src/lib/tw-environment-support-prober.js");
-/* harmony import */ var _addons_channels__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../addons/channels */ "./src/addons/channels.js");
-/* harmony import */ var _load_service_worker__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./load-service-worker */ "./src/playground/load-service-worker.js");
-/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../addons/entry */ "./src/addons/entry.js");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
-/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_28__);
+/* harmony import */ var _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../lib/tw-packager-integration-hoc.jsx */ "./src/lib/tw-packager-integration-hoc.jsx");
+/* harmony import */ var _lib_tw_restore_point_hoc_jsx__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../lib/tw-restore-point-hoc.jsx */ "./src/lib/tw-restore-point-hoc.jsx");
+/* harmony import */ var _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../addons/settings-store-singleton */ "./src/addons/settings-store-singleton.js");
+/* harmony import */ var _lib_tw_fix_history_api__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../lib/tw-fix-history-api */ "./src/lib/tw-fix-history-api.js");
+/* harmony import */ var _render_gui_jsx__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./render-gui.jsx */ "./src/playground/render-gui.jsx");
+/* harmony import */ var _components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../components/menu-bar/menu-bar.jsx */ "./src/components/menu-bar/menu-bar.jsx");
+/* harmony import */ var _components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../components/tw-project-input/project-input.jsx */ "./src/components/tw-project-input/project-input.jsx");
+/* harmony import */ var _components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../components/tw-featured-projects/featured-projects.jsx */ "./src/components/tw-featured-projects/featured-projects.jsx");
+/* harmony import */ var _components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../components/tw-description/description.jsx */ "./src/components/tw-description/description.jsx");
+/* harmony import */ var _containers_webgl_modal_jsx__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../containers/webgl-modal.jsx */ "./src/containers/webgl-modal.jsx");
+/* harmony import */ var _components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../components/browser-modal/browser-modal.jsx */ "./src/components/browser-modal/browser-modal.jsx");
+/* harmony import */ var _components_tw_cloud_variable_badge_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../components/tw-cloud-variable-badge/cloud-variable-badge.jsx */ "./src/components/tw-cloud-variable-badge/cloud-variable-badge.jsx");
+/* harmony import */ var _lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../lib/tw-environment-support-prober */ "./src/lib/tw-environment-support-prober.js");
+/* harmony import */ var _addons_channels__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ../addons/channels */ "./src/addons/channels.js");
+/* harmony import */ var _load_service_worker__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./load-service-worker */ "./src/playground/load-service-worker.js");
+/* harmony import */ var _addons_entry__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ../addons/entry */ "./src/addons/entry.js");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./interface.css */ "./src/playground/interface.css");
+/* harmony import */ var _interface_css__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(_interface_css__WEBPACK_IMPORTED_MODULE_30__);
 const _excluded = ["intl", "hasCloudVariables", "description", "isFullScreen", "isLoading", "isPlayerOnly", "isRtl", "onClickTheme", "projectId"];
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -2906,9 +3180,11 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 
 
 
+
+
 if (window.parent !== window) {
   // eslint-disable-next-line no-alert
-  alert('This page is embedding this in a way that is unsupported and will cease to function in the near future.');
+  alert('This page is embedding TurboWarp in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
   throw new Error('Invalid embed');
 }
 
@@ -2927,55 +3203,89 @@ const messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["defineMessages"
     "defaultMessage": "Run Scratch projects faster"
   }
 });
-const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_13__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_17__["default"]);
+const WrappedMenuBar = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_sb_file_uploader_hoc_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_14__["default"])(_components_menu_bar_menu_bar_jsx__WEBPACK_IMPORTED_MODULE_19__["default"]);
 
-if (_addons_channels__WEBPACK_IMPORTED_MODULE_25__["default"].reloadChannel) {
-  _addons_channels__WEBPACK_IMPORTED_MODULE_25__["default"].reloadChannel.addEventListener('message', () => {
+if (_addons_channels__WEBPACK_IMPORTED_MODULE_27__["default"].reloadChannel) {
+  _addons_channels__WEBPACK_IMPORTED_MODULE_27__["default"].reloadChannel.addEventListener('message', () => {
     location.reload();
   });
 }
 
-if (_addons_channels__WEBPACK_IMPORTED_MODULE_25__["default"].changeChannel) {
-  _addons_channels__WEBPACK_IMPORTED_MODULE_25__["default"].changeChannel.addEventListener('message', e => {
-    _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_14__["default"].setStoreWithVersionCheck(e.data);
+if (_addons_channels__WEBPACK_IMPORTED_MODULE_27__["default"].changeChannel) {
+  _addons_channels__WEBPACK_IMPORTED_MODULE_27__["default"].changeChannel.addEventListener('message', e => {
+    _addons_settings_store_singleton__WEBPACK_IMPORTED_MODULE_16__["default"].setStoreWithVersionCheck(e.data);
   });
 }
 
-Object(_addons_entry__WEBPACK_IMPORTED_MODULE_27__["default"])();
+Object(_addons_entry__WEBPACK_IMPORTED_MODULE_29__["default"])();
 
 const Footer = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("footer", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footer
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footer
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerContent
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerContent
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerText
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerText
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"] // eslint-disable-next-line max-len
 , {
-  defaultMessage: "Scratch Community Edition is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
-  id: "sce.footer.disclaimer"
+  defaultMessage: "TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation.",
+  id: "tw.footer.disclaimer"
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerColumns
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerColumns
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://fosshost.org/"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+  defaultMessage: "Hosting provided by Fosshost",
+  id: "tw.footer.fosshost"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "credits.html"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+  defaultMessage: "Credits",
+  id: "tw.footer.credits"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://github.com/sponsors/GarboMuffin"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+  defaultMessage: "Donate",
+  id: "tw.footer.donate"
+}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://desktop.turbowarp.org/"
+}, 'TurboWarp Desktop'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://packager.turbowarp.org/"
+}, 'TurboWarp Packager'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://docs.turbowarp.org/embedding"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+  defaultMessage: "Embedding",
+  id: "tw.footer.embed"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
   href: "https://docs.turbowarp.org/url-parameters"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
-  defaultMessage: "TurboWarp URL Parameters",
-  id: "sce.footer.parameters"
-}))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://discord.gg/4kypmtHck9"
+  defaultMessage: "URL Parameters",
+  id: "tw.footer.parameters"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://docs.turbowarp.org/translate"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
-  defaultMessage: "Discord Server",
-  id: "sce.server"
+  defaultMessage: "Help Translate TurboWarp",
+  id: "tw.footer.translate"
 }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-  className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.footerSection
+  className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.footerSection
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
-  href: "https://github.com/ScratchCE/"
+  href: "https://scratch.mit.edu/users/GarboMuffin/#comments"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+  defaultMessage: "Feedback & Bugs",
+  id: "tw.feedback"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "https://github.com/TurboWarp/"
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
   defaultMessage: "Source Code",
   id: "tw.code"
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+  href: "privacy.html"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+  defaultMessage: "Privacy Policy",
+  id: "tw.privacy"
 }))))));
 
 class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
@@ -2986,15 +3296,15 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
 
   componentDidUpdate(prevProps) {
     if (prevProps.isLoading && !this.props.isLoading) {
-      Object(_load_service_worker__WEBPACK_IMPORTED_MODULE_26__["loadServiceWorker"])();
+      Object(_load_service_worker__WEBPACK_IMPORTED_MODULE_28__["loadServiceWorker"])();
     }
   }
 
   handleUpdateProjectTitle(title, isDefault) {
     if (isDefault || !title) {
-      document.title = "Scratch Community Edition";
+      document.title = "TurboWarp - ".concat(this.props.intl.formatMessage(messages.defaultTitle));
     } else {
-      document.title = "".concat(title, " - Scratch Community Edition");
+      document.title = "".concat(title, " - TurboWarp");
     }
   }
 
@@ -3017,12 +3327,12 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
     const isHomepage = isPlayerOnly && !isFullScreen;
     const isEditor = !isPlayerOnly;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.container, {
-        [_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.playerOnly]: isHomepage,
-        [_interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.editor]: isEditor
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.container, {
+        [_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.playerOnly]: isHomepage,
+        [_interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.editor]: isEditor
       })
     }, isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.menu
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.menu
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(WrappedMenuBar, {
       canChangeLanguage: true,
       canManageFiles: true,
@@ -3030,34 +3340,65 @@ class Interface extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
       onClickAddonSettings: handleClickAddonSettings,
       onClickTheme: onClickTheme
     })) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.center,
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.center,
       style: isPlayerOnly ? {
         // add a couple pixels to account for border (TODO: remove weird hack)
         width: "".concat(Math.max(480, props.customStageSize.width) + 2, "px")
       } : null
     }, isHomepage && announcement ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_dom_element_renderer_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
       domElement: announcement
-    }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_render_gui_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], _extends({
+    }) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_render_gui_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], _extends({
       onClickAddonSettings: handleClickAddonSettings,
       onClickTheme: onClickTheme,
       onUpdateProjectTitle: this.handleUpdateProjectTitle,
       backpackVisible: true,
       backpackHost: "_local_"
-    }, props)), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_24__["isRendererSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_webgl_modal_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+    }, props)), isHomepage ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_26__["isRendererSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_containers_webgl_modal_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
       isRtl: isRtl
-    }), Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_24__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
+    }), Object(_lib_tw_environment_support_prober__WEBPACK_IMPORTED_MODULE_26__["isBrowserSupported"])() ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_browser_modal_browser_modal_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
       isRtl: isRtl
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.section
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_18__["default"], null)), hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.section
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_cloud_variable_badge_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], null)), description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-      className: _interface_css__WEBPACK_IMPORTED_MODULE_28___default.a.section
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_project_input_project_input_jsx__WEBPACK_IMPORTED_MODULE_20__["default"], null)), ( // eslint-disable-next-line max-len
+    projectId === '0' || description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.unsharedUpdate
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"] // eslint-disable-next-line max-len
+    , {
+      defaultMessage: "Unshared projects will no longer be accessible using just their project ID at some point in the future due to upcoming Scratch API changes.",
+      id: "tw.unshared.1"
+    })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"], {
+      defaultMessage: "For more information, visit: {link}",
+      id: "tw.unshared.2",
+      values: {
+        link: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("a", {
+          href: "https://docs.turbowarp.org/unshared-projects",
+          target: "_blank",
+          rel: "noopener noreferrer"
+        }, 'https://docs.turbowarp.org/unshared-projects')
+      }
+    })), (description.instructions === 'unshared' || description.credits === 'unshared') && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"] // eslint-disable-next-line max-len
+    , {
+      defaultMessage: "If the project was shared recently, this message may appear incorrectly for a few minutes.",
+      id: "tw.unshared.cache"
+    }))), hasCloudVariables && projectId !== '0' && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_cloud_variable_badge_cloud_variable_badge_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], null)), description.instructions || description.credits ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_description_description_jsx__WEBPACK_IMPORTED_MODULE_22__["default"], {
       instructions: description.instructions,
       credits: description.credits,
       projectId: projectId
-    })) : null) : null), isHomepage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Footer, null));
+    })) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_5__["FormattedMessage"] // eslint-disable-next-line max-len
+    , {
+      defaultMessage: "TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below.",
+      id: "tw.home.description"
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
+      className: _interface_css__WEBPACK_IMPORTED_MODULE_30___default.a.section
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_tw_featured_projects_featured_projects_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      studio: "27205657"
+    }))) : null), isHomepage && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(Footer, null));
   }
 
 }
@@ -3095,7 +3436,7 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = () => ({});
 
 const ConnectedInterface = Object(react_intl__WEBPACK_IMPORTED_MODULE_5__["injectIntl"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(Interface));
-const WrappedInterface = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_app_state_hoc_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_lib_error_boundary_hoc_jsx__WEBPACK_IMPORTED_MODULE_9__["default"])('TW Interface'), _lib_tw_project_meta_fetcher_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"])(ConnectedInterface);
+const WrappedInterface = Object(redux__WEBPACK_IMPORTED_MODULE_4__["compose"])(_lib_app_state_hoc_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], Object(_lib_error_boundary_hoc_jsx__WEBPACK_IMPORTED_MODULE_9__["default"])('TW Interface'), _lib_tw_project_meta_fetcher_hoc_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], _lib_tw_state_manager_hoc_jsx__WEBPACK_IMPORTED_MODULE_11__["default"], _lib_tw_theme_hoc_jsx__WEBPACK_IMPORTED_MODULE_12__["default"], _lib_tw_restore_point_hoc_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], _lib_tw_packager_integration_hoc_jsx__WEBPACK_IMPORTED_MODULE_14__["default"])(ConnectedInterface);
 /* harmony default export */ __webpack_exports__["default"] = (WrappedInterface);
 
 /***/ })
